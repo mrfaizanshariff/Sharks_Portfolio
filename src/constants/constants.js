@@ -34,22 +34,22 @@ export const projects = [
     image: "/images/gym1.jpeg",
     id: 0,
   },
-  {
-    image: "/images/gym2.jpeg",
-    id: 1,
-  },
+  // {
+  //   image: "/images/gym2.jpeg",
+  //   id: 1,
+  // },
   {
     image: "/images/gym3.jpeg",
-    id: 2,
+    id: 1,
   },
-  {
-    image: "/images/party2.jpeg",
-    id: 3,
-  },
-  {
-    image: "/images/rest1.jpeg",
-    id: 4,
-  },
+  // {
+  //   image: "/images/party2.jpeg",
+  //   id: 3,
+  // },
+  // {
+  //   image: "/images/rest1.jpeg",
+  //   id: 4,
+  // },
 ];
 
 export const TimeLineData = [
