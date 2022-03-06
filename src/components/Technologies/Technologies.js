@@ -1,6 +1,7 @@
 import React from "react";
 import { DiPhotoshop, DiReact, DiZend } from "react-icons/di";
-import { FiFigma } from "react-icons/fi";
+import { SiAdobeillustrator } from "react-icons/si";
+import { FaPencilAlt } from "react-icons/fa";
 import {
   Section,
   SectionDivider,
@@ -35,22 +36,22 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiPhotoshop size="3rem" />
+        <FaPencilAlt size="3rem" />
         <ListContainer>
-          <ListTitle>PhotoShop</ListTitle>
+          <ListTitle>CorelDraw</ListTitle>
           <ListParagraph>
             {" "}
-            Experience <br /> with PhotoShop
+            Experience <br /> with CorelDraw
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <FiFigma size="3rem" />
+        <SiAdobeillustrator size="3rem" />
         <ListContainer>
-          <ListTitle>PhotoShop</ListTitle>
+          <ListTitle>Adobe Illustrator</ListTitle>
           <ListParagraph>
             {" "}
-            Experience <br /> with PhotoShop
+            Experience <br /> Adobe Illustrator
           </ListParagraph>
         </ListContainer>
       </ListItem>
