@@ -20,14 +20,7 @@ const Hero = (props) => (
         I am your one stop solution for all design needs.
       </SectionText>
       <a href="/SharksWork.pdf" download="ShahrukhsWork.pdf" target="_blank">
-        <Button>My Work</Button>
-      </a>
-      <a
-        href="/ShahrukhResume.pdf"
-        download="ShahrukhsResume.pdf"
-        target="_blank"
-      >
-        <Button>My Resume</Button>
+        <Button>My Design</Button>
       </a>
     </LeftSection>
   </Section>
