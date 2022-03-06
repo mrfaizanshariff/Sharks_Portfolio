@@ -83,7 +83,6 @@ const Timeline = () => {
       </FlexDiv>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
-          {console.log(handleScroll)}
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
               key={index}

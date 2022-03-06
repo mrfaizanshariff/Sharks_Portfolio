@@ -56,6 +56,7 @@ export const ImgDp = styled.div`
     height: 100px;
     width: 100px;
   }
+
   @media ${(props) => props.theme.breakpoints.mdlg} {
     height: 280px;
     width: 280px;

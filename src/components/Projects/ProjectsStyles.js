@@ -6,12 +6,37 @@ export const Img = styled.img`
   object-fit: cover;
   overflow: hidden;
 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media only screen and (min-device-width: 768px) and (max-device-width: 950px) and (orientation: portrait) {
+    height: 80vh;
+  }
+  @media only screen and (min-device-width: 640px) and (max-device-width: 767px) and (orientation: portrait) {
+    height: 60vh;
+  }
+  @media only screen and (min-device-width: 480px) and (max-device-width: 639px) and (orientation: portrait) {
     height: 50vh;
   }
-  @media ${(props) => props.theme.breakpoints.md} {
-    height: 70vh;
+  @media only screen and (min-device-width: 415px) and (max-device-width: 479px) and (orientation: portrait) {
+    height: 35vh;
   }
+  @media only screen and (min-device-width: 300px) and (max-device-width: 414px) and (orientation: portrait) {
+    height: 25vh;
+  }
+  /* @media ${(props) => props.theme.breakpoints.sm} {
+    height: 60vh !important;
+    width: 100%;
+  }
+  @media ${(props) => props.theme.breakpoints.xs} {
+    height: 40vh !important;
+    width: 100%;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    height: 65vh !important;
+    width: 100%;
+  }
+  @media ${(props) => props.theme.breakpoints.mdlg} {
+    height: 80vh !important;
+    width: 100%;
+  } */
 `;
 
 export const GridContainer = styled.section`
