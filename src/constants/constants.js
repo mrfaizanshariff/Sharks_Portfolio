@@ -42,10 +42,10 @@ export const projects = [
     image: "/images/gym3.jpeg",
     id: 1,
   },
-  // {
-  //   image: "/images/party2.jpeg",
-  //   id: 3,
-  // },
+  {
+    image: "/images/logos.jpeg",
+    id: 3,
+  },
   // {
   //   image: "/images/rest1.jpeg",
   //   id: 4,

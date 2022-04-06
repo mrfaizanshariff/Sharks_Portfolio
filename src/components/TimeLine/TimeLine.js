@@ -73,9 +73,10 @@ const Timeline = () => {
 
       <FlexDiv>
         <SectionText>
-          The purpose of JavaScript Mastery is to help aspiring and established
-          developers to take their development skills to the next level and
-          build awesome apps.
+          I create designs your business needs, everything from Logos to Posters
+          to Banners.I am highly experienced with variety of design needs as I
+          am in this field from almost a decade. All design needs, one stop
+          solution. THAT IS ME!!
         </SectionText>
         <ImgDp>
           <ImgDpContainer />
