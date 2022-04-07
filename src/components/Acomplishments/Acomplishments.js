@@ -5,7 +5,18 @@ import {
   SectionDivider,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
+import Button from "../../styles/GlobalComponents/Button";
+// import Form from "../Form/Form";
+import {
+  Box,
+  Boxes,
+  BoxNum,
+  BoxText,
+  Form,
+  Input,
+  TextArea,
+  Inputfile,
+} from "./AcomplishmentsStyles";
 
 const data = [
   { number: 1000, text: "Logo Designs" },
@@ -17,6 +28,7 @@ const data = [
 const Acomplishments = () => (
   <section>
     <SectionTitle>Personal Accomplishments</SectionTitle>
+
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
@@ -25,6 +37,24 @@ const Acomplishments = () => (
         </Box>
       ))}
     </Boxes>
+    <Form
+      method="POST"
+      action="https://formsubmit.co/8de92cd5c8056fdf2f6503f737140261"
+      enctype="multipart/form-data"
+    >
+      <Input type="hidden" name="_captcha" value="false" />
+      <Input type="hidden" name="_template" value="table"></Input>
+      <Input type="text" name="Name" placeholder="Your Name" required />
+      <Input type="text" name="Email" placeholder="Your Email" required />
+      <TextArea
+        type="text"
+        name="message"
+        placeholder="Your message"
+        required
+      />
+      <Inputfile type="file" name="attachment" accept="application/pdf" />
+      <Button type="submit">Send</Button>
+    </Form>
   </section>
 );
 
