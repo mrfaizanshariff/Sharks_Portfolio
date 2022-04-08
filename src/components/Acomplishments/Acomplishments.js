@@ -42,7 +42,11 @@ const Acomplishments = () => (
       action="https://formsubmit.co/8de92cd5c8056fdf2f6503f737140261"
       enctype="multipart/form-data"
     >
-    <input type="hidden" name="_next" value="https://shahrukh-khan.vercel.app/">
+      <Input
+        type="hidden"
+        name="_next"
+        value="https://shahrukh-khan.vercel.app/"
+      />
       <Input type="hidden" name="_captcha" value="false" />
       <Input type="hidden" name="_template" value="table"></Input>
       <Input type="text" name="Name" placeholder="Your Name" required />
