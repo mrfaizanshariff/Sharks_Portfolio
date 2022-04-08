@@ -6,7 +6,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
-// import Form from "../Form/Form";
+
 import {
   Box,
   Boxes,
