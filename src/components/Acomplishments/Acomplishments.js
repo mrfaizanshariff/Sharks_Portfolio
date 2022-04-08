@@ -42,11 +42,6 @@ const Acomplishments = () => (
       action="https://formsubmit.co/8de92cd5c8056fdf2f6503f737140261"
       enctype="multipart/form-data"
     >
-      <Input
-        type="hidden"
-        name="_next"
-        value="https://shahrukh-khan.vercel.app/"
-      />
       <Input type="hidden" name="_captcha" value="false" />
       <Input type="hidden" name="_template" value="table"></Input>
       <Input type="text" name="Name" placeholder="Your Name" required />
@@ -57,7 +52,12 @@ const Acomplishments = () => (
         placeholder="Your message"
         required
       />
-      <Inputfile type="file" name="attachment" accept="application/pdf" />
+      <Inputfile
+        type="file"
+        name="attachment"
+        accept="application/pdf"
+        required
+      />
       <Button type="submit">Send</Button>
     </Form>
   </section>
