@@ -39,7 +39,7 @@ const Acomplishments = () => (
     </Boxes>
     <Form
       method="POST"
-      action="https://formsubmit.co/8de92cd5c8056fdf2f6503f737140261"
+      action="https://formsubmit.co/el/nanati"
       enctype="multipart/form-data"
     >
       <Input type="hidden" name="_captcha" value="false" />
